@@ -2,7 +2,7 @@ import { greetUser } from '$utils/greet';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'This is a test';
+  const name = 'I am just testing';
   greetUser(name);
   document.body.style.backgroundColor = 'red';
 });
